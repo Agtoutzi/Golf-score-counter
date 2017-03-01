@@ -84,17 +84,6 @@
                     android:textAllCaps="false"
                     android:text="3x" />
             </LinearLayout>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="scoredCondor"
-                android:text="double Bogey" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="scoredCondor"
-                android:text="triple Bogey" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
