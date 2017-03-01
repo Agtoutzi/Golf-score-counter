@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score1=0;
+    int score1=0,score2=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +57,51 @@ public class MainActivity extends AppCompatActivity {
 
     public void displayScore1(int score){
         TextView scoreView = (TextView) findViewById(R.id.score1);
+        scoreView.setText(String.valueOf(score));
+    }
+
+    public void scoredCondor2(View v){
+        score2-=4;
+        displayScore2(score2);
+    }
+
+    public void scoredAlbatross2(View v){
+        score2-=3;
+        displayScore2(score2);
+    }
+
+    public void scoredEagle2(View v){
+        score2-=2;
+        displayScore2(score2);
+    }
+
+    public void scoredBirdie2(View v){
+        score2-=1;
+        displayScore2(score2);
+    }
+
+    public void scoredBogey2(View v){
+        score2+=1;
+        displayScore2(score2);
+    }
+
+    public void scored2Bogey2(View v){
+        score2+=2;
+        displayScore2(score2);
+    }
+
+    public void scored3Bogey2(View v){
+        score2+=3;
+        displayScore2(score2);
+    }
+
+    public void failedToScore2(View v){
+        score2+=4;
+        displayScore2(score2);
+    }
+
+    public void displayScore2(int score){
+        TextView scoreView = (TextView) findViewById(R.id.score2);
         scoreView.setText(String.valueOf(score));
     }
 }
