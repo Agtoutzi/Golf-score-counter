@@ -15,6 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void resetScores(View v){
+        score1=0;
+        score2=0;
+        displayScore1(score1);
+        displayScore2(score2);
+    }
+
     public void scoredCondor(View v){
         score1-=4;
         displayScore1(score1);
@@ -104,4 +111,5 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.score2);
         scoreView.setText(String.valueOf(score));
     }
+
 }

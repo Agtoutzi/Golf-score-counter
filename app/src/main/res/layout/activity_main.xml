@@ -183,5 +183,5 @@
         android:background="@android:color/holo_blue_light"
         android:text="---reset scores---"
         android:textSize="26sp"
-        />
+        android:onClick="resetScores"/>
 </RelativeLayout>
