@@ -41,17 +41,17 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="scoredCondor"
+                android:onClick="scoredAlbatross"
                 android:text="Albatross" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="scoredCondor"
+                android:onClick="scoredEagle"
                 android:text="Eagle" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="scoredCondor"
+                android:onClick="scoredBirdie"
                 android:text="Birdie" />
             <TextView
                 android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:onClick="scoredCondor"
+                    android:onClick="scoredBogey"
                     android:textAllCaps="false"
                     android:text="1x"
                     android:textSize="16dp"/>
@@ -75,7 +75,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:onClick="scoredCondor"
+                    android:onClick="scored2Bogey"
                     android:textAllCaps="false"
                     android:text="2x"
                     android:textSize="16dp"/>
@@ -83,7 +83,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:onClick="scoredCondor"
+                    android:onClick="scored3Bogey"
                     android:textAllCaps="false"
                     android:text="3x"
                     android:textSize="16dp"/>
@@ -91,7 +91,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="scoredCondor"
+                android:onClick="failedToScore"
                 android:text="Give up" />
 
         </LinearLayout>
