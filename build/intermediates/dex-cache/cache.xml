@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_7b7a5041c09aa08af7c1a72891d08d1e14f6c1cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_f6d604c579901d8ba2ae28bc3ca95265e1a85e27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="221fbeccf25c35f86c21f7c427f0590a0899100e">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c17a119ec8ee846c252fbf9dd6f9865875f3d6ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b8125974e66ed28dfd95dfa5300579477e5ed96">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\instant-run_173f5dc33ec164a7623ea4b0471da8f15df60b0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_63396ed9d6325fccb60e6f5c913b0523243dc53f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_1da3ba91120ab9d6d6a36b5ea0d3ee80a98fe829.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_799290698a35e5227d8daf69372ef050b47d8b45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a834cd66f866e1995e8da72911cec7170d6f7209.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_83499b879f5062fa5d44e84b71a4d99e5ae34ae7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_01abf960eb85a8849c0a590901124087b3b7b6b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_b3b47e123784df67d7d7f100f8dca809a43b6617.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_017c6d395b66462f104a99daf4eede4edec32c04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_573138ee6ca12aa08e9192b88483f6440af35957.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_9cf650c88bcdd6e9f7752d79a56af17c33903268.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_34f2b3b7aca12c1e388c1ab1ca3c6f3815bf6434.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_c59770c360ee0fcef80b94e62eebe7a7acbcb215.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\angelos\AndroidStudioProjects\Golfscorecounter\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_fd5bd226eae24f54d20e781e6dd7a81fe565058d.jar" />
+    </item>
+
+</items>
