@@ -38,6 +38,41 @@
                 android:layout_height="wrap_content"
                 android:onClick="scoredCondor"
                 android:text="Condor" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredCondor"
+                android:text="Albatross" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredCondor"
+                android:text="Eagle" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredCondor"
+                android:text="Birdie" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredCondor"
+                android:text="Bogey" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredCondor"
+                android:text="double Bogey" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredCondor"
+                android:text="triple Bogey" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredCondor"
+                android:text="Give up" />
 
         </LinearLayout>
 
