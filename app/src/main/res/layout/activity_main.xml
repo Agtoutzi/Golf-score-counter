@@ -99,7 +99,80 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player 1" />
+
+            <TextView
+                android:id="@+id/score1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredCondor"
+                android:text="Condor" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredAlbatross"
+                android:text="Albatross" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredEagle"
+                android:text="Eagle" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="scoredBirdie"
+                android:text="Birdie" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:text="BOGEY" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:onClick="scoredBogey"
+                    android:textAllCaps="false"
+                    android:text="1x"
+                    android:textSize="16dp"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:onClick="scored2Bogey"
+                    android:textAllCaps="false"
+                    android:text="2x"
+                    android:textSize="16dp"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:onClick="scored3Bogey"
+                    android:textAllCaps="false"
+                    android:text="3x"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="failedToScore"
+                android:text="Give up" />
 
         </LinearLayout>
     </LinearLayout>
