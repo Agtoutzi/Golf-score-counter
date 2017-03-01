@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player 1"
-                android:textColor="@android:color/holo_orange_dark"
+                android:textColor="#fb8c00"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
-                android:textColor="@android:color/holo_orange_dark"
+                android:textColor="#fb8c00"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
@@ -109,7 +109,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="failedToScore"
-                android:text="Give up" />
+                android:text="Give up round" />
 
         </LinearLayout>
 
@@ -130,7 +130,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player 2"
-                android:textColor="@android:color/holo_purple"
+                android:textColor="#9C27B0"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -139,7 +139,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
-                android:textColor="@android:color/holo_purple"
+                android:textColor="#9C27B0"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
@@ -211,7 +211,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="failedToScore2"
-                android:text="Give up" />
+                android:text="Give up round" />
 
         </LinearLayout>
     </LinearLayout>
@@ -223,5 +223,6 @@
         android:background="@android:color/holo_blue_light"
         android:onClick="resetScores"
         android:text="---reset scores---"
-        android:textSize="26sp" />
+        android:textSize="26sp"
+        android:textColor="#e64a19"/>
 </RelativeLayout>
