@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
     tools:context="com.example.android.golfscorecounter.MainActivity">
 
     <LinearLayout
@@ -24,69 +24,80 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Player 1" />
+                android:text="Player 1"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/score1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:text="0"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="scoredCondor"
                 android:text="Condor" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="scoredAlbatross"
                 android:text="Albatross" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="scoredEagle"
                 android:text="Eagle" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="scoredBirdie"
                 android:text="Birdie" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
+                android:text="BOGEY"
                 android:textColor="@android:color/black"
-                android:text="BOGEY" />
+                android:textSize="16sp" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <Button
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:onClick="scoredBogey"
-                    android:textAllCaps="false"
                     android:text="1x"
-                    android:textSize="16sp"/>
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
                 <Button
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:onClick="scored2Bogey"
-                    android:textAllCaps="false"
                     android:text="2x"
-                    android:textSize="16sp"/>
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
                 <Button
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:onClick="scored3Bogey"
-                    android:textAllCaps="false"
                     android:text="3x"
-                    android:textSize="16sp"/>
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
             </LinearLayout>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -104,69 +115,80 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Player 2" />
+                android:text="Player 2"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/score2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:text="0"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="scoredCondor2"
                 android:text="Condor" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="scoredAlbatross2"
                 android:text="Albatross" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="scoredEagle2"
                 android:text="Eagle" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="scoredBirdie2"
                 android:text="Birdie" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
+                android:text="BOGEY"
                 android:textColor="@android:color/black"
-                android:text="BOGEY" />
+                android:textSize="16sp" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <Button
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:onClick="scoredBogey2"
-                    android:textAllCaps="false"
                     android:text="1x"
-                    android:textSize="16sp"/>
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
                 <Button
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:onClick="scored2Bogey2"
-                    android:textAllCaps="false"
                     android:text="2x"
-                    android:textSize="16sp"/>
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
                 <Button
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:onClick="scored3Bogey2"
-                    android:textAllCaps="false"
                     android:text="3x"
-                    android:textSize="16sp"/>
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
             </LinearLayout>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -181,7 +203,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@android:color/holo_blue_light"
+        android:onClick="resetScores"
         android:text="---reset scores---"
-        android:textSize="26sp"
-        android:onClick="resetScores"/>
+        android:textSize="26sp" />
 </RelativeLayout>
