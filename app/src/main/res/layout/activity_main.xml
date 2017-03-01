@@ -9,8 +9,9 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/golf"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/golf" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -70,7 +71,8 @@
                 android:layout_height="wrap_content"
                 android:text="BOGEY"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -223,6 +225,6 @@
         android:background="@android:color/holo_blue_light"
         android:onClick="resetScores"
         android:text="---reset scores---"
-        android:textSize="26sp"
-        android:textColor="#e64a19"/>
+        android:textColor="#e64a19"
+        android:textSize="26sp" />
 </RelativeLayout>
