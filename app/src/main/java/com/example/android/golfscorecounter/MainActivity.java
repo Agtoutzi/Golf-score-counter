@@ -3,6 +3,7 @@ package com.example.android.golfscorecounter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void displayScore1(int score){
-
+        TextView scoreView = (TextView) findViewById(R.id.score1);
+        scoreView.setText(String.valueOf(score));
     }
 }
