@@ -63,19 +63,25 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:onClick="scoredCondor"
+                    android:textAllCaps="false"
                     android:text="1x" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:onClick="scoredCondor"
+                    android:textAllCaps="false"
                     android:text="2x" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:onClick="scoredCondor"
+                    android:textAllCaps="false"
                     android:text="3x" />
             </LinearLayout>
 
