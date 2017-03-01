@@ -17,7 +17,7 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
@@ -26,6 +26,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player 1"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -33,6 +35,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="40sp"
                 android:textStyle="bold" />
 
             <Button
@@ -109,7 +113,7 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
@@ -118,6 +122,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Player 2"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -125,6 +131,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="40sp"
                 android:textStyle="bold" />
 
             <Button
